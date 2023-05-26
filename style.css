@@ -1,0 +1,148 @@
+.container{
+    margin: 0px 166px 166px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.phone-img img{
+    height: 15px;
+    width: 15px;
+    color: aliceblue;
+    background-color: aliceblue;
+}
+
+.phonetext{
+    color: aliceblue;
+}
+
+.menu{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+.cart{
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.first{
+    position: absolute;
+    right: 7px;
+    top: 20px;
+}
+
+.cola{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.phonetext{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone-hold{
+    display: flex;
+}
+
+.button{
+    background-color: rgb(240, 94, 10);
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 18px;
+}
+
+.nav a:hover{
+    color: rgb(221, 27, 27);
+}
+
+nav a{
+    transition: color 0,3s linear;
+}
+
+.heder-page{
+    position: absolute;
+    left: 199px;
+    top: 322px;
+}
+
+.header-title{
+    font-weight: 400;
+    font-size: 50px;
+    color: #D67E35;
+    
+    
+}
+
+.header-titleb{
+    position: relative;
+    font-weight: 400;
+    font-size: 80px;
+    color: #D67E35;
+    left: -24px;
+}
+
+.small-h{
+    position: relative;
+    left: 100px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    width: 307px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    line-height: 25px;
+}
+
+.center1{
+    width: 61px;
+    float:right;
+    
+}
+
+.center2{
+    width: 61px;
+    float: left;
+}
+
+.header-btn{
+    position: relative;
+    left: 175px;
+    top: 21px;
+    color: #FF7400;
+    width: 137px;
+    height: 47px;
+    padding: 14px 27px 28px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: background-color 2s linear;
+}
+
+.header-btn a:hover{
+    background-color: orangered;
+}
